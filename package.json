@@ -1,6 +1,6 @@
 {
-  "name": "vite_ts_calc_volume_self-leveling_floor",
-  "homepage": "https://momos1703.github.io/vite_ts_calc_volume_self-leveling_floor",
+  "name": "floor-calc",
+  "homepage": "https://momos1703.github.io/floor-calc",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -24,6 +24,7 @@
     "eslint": "^9.19.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
+    "gh-pages": "^6.3.0",
     "globals": "^15.14.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.22.0",
