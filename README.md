@@ -2,7 +2,7 @@
 
 Interactive calculator for estimating the volume of self-leveling floor compound needed for your project.
 
-[Demo Link](https://momos1703.github.io/vite_ts_calc_volume_self-leveling_floor/) 🚀
+[Demo Link](https://momos1703.github.io/floor-calc/) 🚀
 
 ## Features
 - Visual representation of floor area
