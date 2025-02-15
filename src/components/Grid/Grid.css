@@ -1,0 +1,102 @@
+/* OLD CSS .grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  box-sizing: border-box;
+  border: 1px solid black;
+  position: relative;
+}
+
+.controls {
+  display: flex;
+  padding-block: 40px;
+}
+
+.controls__field {
+  width: 220px;
+}
+
+.controls__input {
+  margin-left: 10px;
+  padding: 0;
+  width: 70px;
+  height: 20px;
+  text-align: right;
+} */
+ 
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.grid {
+  display: grid;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.calculation-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+button {
+  padding: 0.75rem 2rem;
+  background-color: #4dabf7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #339af0;
+  transform: translateY(-1px);
+}
+
+.controls__button--reset {
+  background-color: #f8a5a5;
+}
+
+.controls__button--reset:hover {
+  background-color: #fa7171;
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+p {
+  font-size: 1.25rem;
+  color: #212529;
+  font-weight: 500;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+

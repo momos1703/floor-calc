@@ -1,0 +1,37 @@
+.controls {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.controls__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.controls__field label {
+  font-size: 0.9rem;
+  color: #495057;
+  font-weight: 500;
+}
+
+.controls__input {
+  padding: 0.5rem;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  width: 120px;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.controls__input:focus {
+  outline: none;
+  border-color: #4dabf7;
+  box-shadow: 0 0 0 3px rgba(77, 171, 247, 0.2);
+}

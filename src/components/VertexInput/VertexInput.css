@@ -1,0 +1,14 @@
+.vertex-input::-webkit-outer-spin-button,
+.vertex-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.vertex-input {
+  width: 30px; /* Ширина поля вводу */
+  height: 20px; /* Висота поля вводу */
+  padding: 2px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
